@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,4 +50,6 @@ Route::get('/gallery', function () {
     return view('pages.index');
 });
 
+Route::view('/availability-form','availability-form')->name('availability-form');
 
+Route::post('/availability-checked', [\App\Http\Controllers\HomeController::class,'send'])->name('send.email');

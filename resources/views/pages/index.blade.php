@@ -5,8 +5,11 @@
    @include('layouts.page-hero')
    
    <!-- availability -->
-
-   <section class="availability">
+   @include('parts.availability-form')
+ 
+   <!--<section class="availability">
+       
+      <h1 class="heading">book now</h1>
 
       <form action="">
 
@@ -58,9 +61,7 @@
 
          <input type="submit" value="check availability" class="btn">
 
-      </form>
-
-   </section>
+      </form>-->
 
    <!-- end -->
 

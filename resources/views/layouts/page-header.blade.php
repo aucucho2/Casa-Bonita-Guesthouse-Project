@@ -10,9 +10,9 @@
          <a href="/about">about</a>
          <a href="/room">rooms</a>
          <a href="/contacts">Contacts</a>
-         <a href="#gallery">gallery</a>
+         <!--<a href="#gallery">gallery</a>
          <a href="#review">review</a>
-         <a href="#faq">faq</a>
+         <a href="#faq">faq</a>-->
          <a href="/booknow" class="btn"> book now</a>
       </nav>
 
